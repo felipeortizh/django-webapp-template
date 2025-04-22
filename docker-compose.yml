@@ -11,10 +11,10 @@ services:
     depends_on:
       - db
     environment:
-      - "DJANGO_SECRET_KEY=django-insecure-8!_%v2cf!t6_vi4ze)6yn$1-4^sd*mcv&8zkd*z^p+314g7cpi"
-      - "AZURE_ACCOUNT_NAME=ecostorage82"
-      - "AZURE_ACCOUNT_KEY=SK2r/d4EHVFxhT0nu+CA/qKYFGU9vT42AYvXebKYA9i6x/AjPvVfarg/dO/f6EkdBzR1X9pSGOA2+AStmB+JFQ=="
-      - "AZURE_CONTAINER=ecocontainer82"
+      - "DJANGO_SECRET_KEY=<MY-KEY>"
+      - "AZURE_ACCOUNT_NAME=<ACCOUNT-NAME>"
+      - "AZURE_ACCOUNT_KEY=<MY-KEY>"
+      - "AZURE_CONTAINER=<CONTAINER-NAME"
   db:
     image: postgres:13
     volumes:
