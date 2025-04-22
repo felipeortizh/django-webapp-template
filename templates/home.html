@@ -1,0 +1,12 @@
+<!-- templates/home.html -->
+{% extends "_base.html" %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+
+{% block content %}
+    <h1>Welcome to EcoSíntesis.</h1>
+    <div class="image-container">
+    <img class="portada" src="{% static 'images/ecorobot.jpeg' %}">
+    </div>
+{% endblock content %}

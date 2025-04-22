@@ -1,0 +1,22 @@
+/* static/css/base.css */
+
+body {
+min-height: 75rem;
+padding-top: 4.5rem;
+}
+
+h1 {
+color: green;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.portada {
+height: 300px;
+width: auto;
+margin: 0 0 20em 0;
+}
