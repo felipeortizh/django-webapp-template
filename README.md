@@ -2,6 +2,8 @@
 
 A production‑ready Django 4 template that lets you **upload files straight to Azure Blob Storage** while running locally in *two* Docker containers (Python + PostgreSQL). Use it as a starting point for SaaS dashboards, internal tools or any project that needs authenticated uploads at zero‑cost.
 
+![Project banner](webapp-django.png)
+
 ## ✨ Features
 
 | Area | What’s included |
